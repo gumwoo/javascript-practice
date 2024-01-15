@@ -1,0 +1,87 @@
+.black-bg {
+  width : 100%;
+  height : 100%;
+  position : fixed;
+  background : rgba(0,0,0,0.5);
+  z-index : 5;
+  padding: 30px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+.white-bg {
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 600px; /* 최대 가로 크기 설정 */
+  margin: auto;    
+} 
+.list-group {
+  display: none;
+}
+.show {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.main-bg {
+    padding: 100px 20px;
+    background: lightgrey;
+}
+
+#close {
+    float: right;
+}
+
+#toggle-badge {
+    cursor: pointer;  /* 마우스 오버시 커서 모양 변경 */
+    transition: background-color 0.3s; /* 배경색 변화에 애니메이션 효과 적용 */
+}
+
+/* 기본 스타일 */
+#dark-mode-toggle {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* 다크 모드 스타일 */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+/* 기타 요소의 다크 모드 스타일을 여기에 추가 */
+
+.pl {
+    width: 300%;
+    display: flex;
+    transition: all 1s;
+    margin: 0;
+}
+
+.pl-1{
+    width: 100%;
+    display: flex;
+}
+
+.pl-2 {
+    width: 100%;
+    display: flex;
+}
+
+.pl-3 {
+    width: 100%;
+    display: flex;
+}
+img {
+    width: 100%;
+}
+
+.slide-container {
+    
+}
